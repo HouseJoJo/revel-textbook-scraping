@@ -1,0 +1,112 @@
+1674176559010	geckodriver	INFO	Listening on 127.0.0.1:52219
+1674176559016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQEv2Mf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674176559888	Marionette	INFO	Marionette enabled
+1674176559893	Marionette	INFO	Listening on port 36359
+Read port: 36359
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50549
+1674176560103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQEv2Mf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50549/devtools/browser/ecaee96e-81e9-42f1-88ae-ba158bed2729
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674177135051	geckodriver	INFO	Listening on 127.0.0.1:51013
+1674177135055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6hPwEy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674177135851	Marionette	INFO	Marionette enabled
+1674177135857	Marionette	INFO	Listening on port 39425
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 39425
+WebDriver BiDi listening on ws://127.0.0.1:55815
+1674177136068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6hPwEy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55815/devtools/browser/15067abf-b9eb-49c0-98cf-d0748120d032
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674177179982	Marionette	INFO	Stopped listening on port 39425
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674177447215	geckodriver	INFO	Listening on 127.0.0.1:57395
+1674177447720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58787" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehAuAM1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674177448514	Marionette	INFO	Marionette enabled
+1674177448519	Marionette	INFO	Listening on port 37731
+Read port: 37731
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:58787
+1674177448747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehAuAM1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58787/devtools/browser/3fb6ca90-ec35-4030-b38b-c1c808f7553e
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+1674178054347	geckodriver	INFO	Listening on 127.0.0.1:60375
+1674178054352	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezmKvg1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674178055190	Marionette	INFO	Marionette enabled
+1674178055196	Marionette	INFO	Listening on port 39255
+Read port: 39255
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:41101
+1674178055420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezmKvg1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41101/devtools/browser/b83dcd37-0d49-40a2-9543-3182001b69eb
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674178105326	geckodriver	INFO	Listening on 127.0.0.1:48417
+1674178105332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePGyU1l"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674178106185	Marionette	INFO	Marionette enabled
+1674178106191	Marionette	INFO	Listening on port 43707
+Read port: 43707
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:48995
+1674178106405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePGyU1l/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48995/devtools/browser/b8a4bf53-0fad-43d2-b512-36b9e1e3d30e
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/UYyl/Rkt5/CPb/Xjp/R8Eg/EhaLXhNc/InVedjM/Wko/sRVd3aSc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674178132459	Marionette	INFO	Stopped listening on port 43707
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674178134652	Marionette	INFO	Stopped listening on port 39255
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
