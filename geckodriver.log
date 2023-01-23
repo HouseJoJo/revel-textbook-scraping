@@ -1935,3 +1935,68 @@ console.error: (new TypeError("container.node.targetFront is null", "resource://
 1674501878384	Marionette	INFO	Stopped listening on port 34047
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1674501995961	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 1196 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674502737154	Marionette	INFO	Stopped listening on port 35723
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1674502738857	geckodriver	INFO	Listening on 127.0.0.1:36321
+1674502738862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebuSfX1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674502739374	Marionette	INFO	Marionette enabled
+1674502739377	Marionette	INFO	Listening on port 37823
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 37823
+WebDriver BiDi listening on ws://127.0.0.1:55251
+1674502739565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebuSfX1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55251/devtools/browser/3b280e37-c3b5-45eb-9393-91732b5843d9
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674502744501	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674502779512	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb60128b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb60128b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb60128e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb60128e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb659dc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb659dc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb7ec21700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 31060, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb7ec21700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
