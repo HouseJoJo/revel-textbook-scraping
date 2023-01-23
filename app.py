@@ -57,5 +57,6 @@ while(EC.url_contains("login")):
         print("Expected error")
 
 driver.close()
+print("Finish")
 #print(username.get_attribute("outerHTML"))
 #print(password.get_attribute("outerHTML"))
