@@ -3,32 +3,30 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-xpath = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]",
+xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]",
     'openRevelAlt' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]/span",
     'closeAlert1Bttn' : "/html/body/div[5]/div[2]/div/div[1]/button",
     'continueReadingBttn' : "/html/body/div[2]/div/div[2]/div[4]/div[1]/div/div[1]/div/div[2]/div/div/div/button" }
+    #Pairs of xpaths for future use.
 
 driver = webdriver.Firefox()
-driver.get("https://console.pearson.com/console/home")
+driver.get("https://console.pearson.com/console/home") #Setup browser driver
 
 elem = WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR,"#username"))
+    EC.presence_of_element_located((By.CSS_SELECTOR,"#username")) #Wait for page to finish loading
 )
+
 username = driver.find_element(By.CSS_SELECTOR,"#username")
-#username.send_keys("username")
 password = driver.find_element(By.CSS_SELECTOR,"#password")
-loginbttn = driver.find_element(By.CSS_SELECTOR,"#mainButton")
-#password.send_keys("password")
+loginbttn = driver.find_element(By.CSS_SELECTOR,"#mainButton") #Select elements needed for login
 
 userinput = input("Enter Username to login:")
-passinput = input("Enter Password:")
-
-print(userinput)
-print(passinput)
+passinput = input("Enter Password:") #Prompt user for credentials
 
 username.send_keys(userinput)
-password.send_keys(passinput)
+password.send_keys(passinput) #Input credentials and attempt login
 loginbttn.click()
 
-#print(username.get_attribute("outerHTML"))
-#print(password.get_attribute("outerHTML"))
+WebDriverWait(driver, 30).until(
+    EC.presence_of_element_located((By.XPATH,xpaths["openRevel"])) #wait for browser to load next page
+)

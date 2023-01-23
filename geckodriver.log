@@ -427,3 +427,37 @@ JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip 
 JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
 JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
 JavaScript warning: , line 0: After reporting 32, no further warnings will be reported for this WebGL context.
+1674491209338	geckodriver	INFO	Listening on 127.0.0.1:55039
+1674491209343	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileR9BuU1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674491210147	Marionette	INFO	Marionette enabled
+1674491210152	Marionette	INFO	Listening on port 41045
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 41045
+WebDriver BiDi listening on ws://127.0.0.1:41441
+1674491210381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR9BuU1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41441/devtools/browser/aa85f408-0801-41a1-a8a4-9f13a8dacab4
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674491216624	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
