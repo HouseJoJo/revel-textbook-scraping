@@ -10,8 +10,9 @@ xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/di
     'continueReadingBttn' : "/html/body/div[2]/div/div[2]/div[4]/div[1]/div/div[1]/div/div[2]/div/div/div/button",
     'appPopUp' : "/html/body/appcues",
     'appPopUpClose' : "/html/body/appcues/div[2]/a",
-    'OSPopup': "/html/body/div[5]/div[2]",
-    'OSPopupClose': "/html/body/div[5]/div[2]/div/div[1]/button"}
+    'osPopupClose': "/html/body/div[5]/div[2]/div/div[1]/button",
+    'courseContentInput': "/html/body/div[2]/div/div[2]/div[4]/div[3]/div[1]/div[3]/div[2]/div/div",
+    'ccInputChapters': "/html/body/div[5]/div[3]/ul/li[2]/div"}
     #Pairs of xpaths for future use.
 
 driver = webdriver.Firefox()
@@ -45,13 +46,21 @@ WebDriverWait(driver, 30).until(
 print("Revel Content loaded")
 try:
     driver.find_element(By.XPATH,xpaths['appPopUpClose']).click()
+    print("App popup closed")
 except NoSuchElementException:
     print("App popup not found")
 
 try:
-    driver.find_element(By.XPATH,xpaths["OSPopupClose"]).click()
+    driver.find_element(By.XPATH,xpaths["osPopupClose"]).click()
     print("OS popup closed")
 except NoSuchElementException:
     print("OS popup not found")
 
 print("Final")
+WebDriverWait(driver, 30).until(
+    EC.presence_of_element_located((By.XPATH,xpaths["courseContentInput"]))
+)
+driver.find_element(By.XPATH,xpaths["courseContentInput"]).click()
+
+driver.find_element(By.XPATH,xpaths["ccInputChapters"]).click()
+print("All chapters selected")

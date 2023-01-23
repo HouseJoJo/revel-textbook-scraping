@@ -1472,3 +1472,466 @@ JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js
 JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
 JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20313, MediaDecoderStateMachine #1] WARNING: Decoder=7f17e32b7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 20313, MediaDecoderStateMachine #1] WARNING: Decoder=7f17e32b7c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 20313, MediaDecoderStateMachine #1] WARNING: Decoder=7f17e3337700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 20313, MediaDecoderStateMachine #1] WARNING: Decoder=7f17e3337700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 20313, MediaDecoderStateMachine #1] WARNING: Decoder=7f17e3335f00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 20313, MediaDecoderStateMachine #1] WARNING: Decoder=7f17e3335f00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: Script terminated by timeout at:
+@https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js:370:1413
+o@https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js:1:357
+@https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js:370:1368
+o@https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js:1:357
+@https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js:1:1312
+@https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js:1:1324
+
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674496897257	Marionette	INFO	Stopped listening on port 45271
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674496926993	geckodriver	INFO	Listening on 127.0.0.1:51329
+1674496927497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesHuqeo"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674496928467	Marionette	INFO	Marionette enabled
+1674496928473	Marionette	INFO	Listening on port 46019
+Read port: 46019
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:42645
+1674496928728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesHuqeo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42645/devtools/browser/6fd60a00-43d4-4422-9b9a-1a5410f723ce
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674496936034	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 1120 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/beeswaxdisplay108801632049/moatad.js#moatClientLevel1=514&moatClientLevel2=12432&moatClientLevel3=81182&moatClientLevel4=22621&moatClientSlicer1=13947&moatClientSlicer2=3840184127&zMoatAID=1674499846758780.4153852073.5754.indeed&zMoatInvSource=GOOGLE_ADX, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/beeswaxdisplay108801632049/moatad.js#moatClientLevel1=514&moatClientLevel2=12432&moatClientLevel3=81182&moatClientLevel4=33888&moatClientSlicer1=13947&moatClientSlicer2=3890135258&zMoatAID=1674499847007442.2336128801.5808.indeed&zMoatInvSource=GOOGLE_ADX, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 2366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 7532 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 127 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 3554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 3736 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 6565 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1007))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967333/pagestyle29 (resource://devtools/server/actors/page-style.js:1007:5)", "resource://devtools/shared/protocol/Front.js", 383))
+console.error: "Unable to find target with innerWindowId:4294967333"
+console.warn: "Already started legacy listener for root-node on server0.conn0.windowGlobal4294967358/windowGlobalTarget2"
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+console.error: "Unable to find target with innerWindowId:4294967356"
+console.error: "Unable to find target with innerWindowId:4294967356"
+console.error: "Unable to find target with innerWindowId:4294967356"
+console.error: "Unable to find target with innerWindowId:4294967356"
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1674500135357	geckodriver	INFO	Listening on 127.0.0.1:35431
+1674500135862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIeJUNB"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674500136450	Marionette	INFO	Marionette enabled
+1674500136454	Marionette	INFO	Listening on port 38179
+Read port: 38179
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36385
+1674500136618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIeJUNB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36385/devtools/browser/4bfa6b76-99c4-42b1-a5b9-fcfd65b4a2bc
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500141426	Marionette	INFO	Stopped listening on port 38179
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674500141525	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: uncaught exception: Object
+[2023-01-23T18:55:41Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+1674500274422	geckodriver	INFO	Listening on 127.0.0.1:51881
+1674500274427	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQjTy6W"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674500274960	Marionette	INFO	Marionette enabled
+1674500274964	Marionette	INFO	Listening on port 44585
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 44585
+WebDriver BiDi listening on ws://127.0.0.1:46519
+1674500275110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQjTy6W/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46519/devtools/browser/4a8e20f0-1b8b-418b-b4a3-c0a67525f63a
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500281170	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/sU6CjPDj0xr2jbZF4y7IwEoRNSn0ddnQS8nRuvxnxiY.js line 2 > eval line 3489 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500600347	geckodriver	INFO	Listening on 127.0.0.1:44833
+1674500600851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile783uj1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674500601433	Marionette	INFO	Marionette enabled
+1674500601437	Marionette	INFO	Listening on port 39561
+Read port: 39561
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:53667
+1674500601622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile783uj1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53667/devtools/browser/251512e9-e68b-48a4-836d-d2b4ad658ce3
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500611563	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500949209	geckodriver	INFO	Listening on 127.0.0.1:54737
+1674500949714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47737" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFmXjB3"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674500950337	Marionette	INFO	Marionette enabled
+1674500950341	Marionette	INFO	Listening on port 34969
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 34969
+WebDriver BiDi listening on ws://127.0.0.1:47737
+1674500950504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFmXjB3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47737/devtools/browser/5a5e4895-8502-4a4b-a39b-42522a0067ff
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500957582	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674500980509	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1674501613742	geckodriver	INFO	Listening on 127.0.0.1:32877
+1674501614242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ74PNH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674501614940	Marionette	INFO	Marionette enabled
+1674501614944	Marionette	INFO	Listening on port 35723
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 35723
+WebDriver BiDi listening on ws://127.0.0.1:42363
+1674501615171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ74PNH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42363/devtools/browser/e0fa81cf-b05c-4a46-a5fa-70d0cf42e538
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674501620165	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674501732121	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/console/home, line 20: Script terminated by timeout at:
+n@https://console.pearson.com/console/home:20:21015
+n@https://console.pearson.com/console/home:20:20969
+u@https://console.pearson.com/console/home:20:24227
+nrWrapper@https://console.pearson.com/console/home:20:23871
+EventListener.handleEvent*nrWrapper@https://console.pearson.com/console/home:20:23908
+lgO@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:165991
+Jv/dv<@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:167734
+NF@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:40863
+C5@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:42675
+Jv/dv<@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:54640
+Jv@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:54668
+ImYzTkWIFU@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:208445
+@https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU:1:209304
+
+JavaScript error: https://login.pearson.com/v1/piapi/login/html/v2/checkSessionFrame.html?v=3.63.0, line 12: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+console.error: "Unable to find target with innerWindowId:4294967356"
+console.error: "Unable to find target with innerWindowId:4294967356"
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1674501814299	geckodriver	INFO	Listening on 127.0.0.1:35837
+1674501814301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60173" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezrGQfG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674501814831	Marionette	INFO	Marionette enabled
+1674501814835	Marionette	INFO	Listening on port 41613
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 41613
+WebDriver BiDi listening on ws://127.0.0.1:60173
+1674501814998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezrGQfG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60173/devtools/browser/ef1959bb-9cee-4747-aec3-5f4489a611b7
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674501821304	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/CdMwkQ9zVB/YqCx/HJH8T4/uV1Xt2XGriwa/SyYxWAA-BA/DQlDfRcR/MEc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674501842541	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1674501843217	Marionette	INFO	Stopped listening on port 41613
+1674501856779	geckodriver	INFO	Listening on 127.0.0.1:36705
+1674501856783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileStC6Sk"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674501857291	Marionette	INFO	Marionette enabled
+1674501857295	Marionette	INFO	Listening on port 34047
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 34047
+WebDriver BiDi listening on ws://127.0.0.1:44463
+1674501857474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileStC6Sk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44463/devtools/browser/fdd482ae-34d9-474b-8de7-b1188e913d83
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/xQdJeIPsAOqT/llqtmu/pb38It/EGOuLVL8afm9/b3BILA/Jx/RpUy4SIGU, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674501863079	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+1674501878384	Marionette	INFO	Stopped listening on port 34047
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674501995961	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
