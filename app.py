@@ -30,3 +30,10 @@ loginbttn.click()
 WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.XPATH,xpaths["openRevel"])) #wait for browser to load next page
 )
+
+driver.find_element(By.XPATH,xpaths["openRevel"]).click() #Clicks to open assignment
+
+WebDriverWait(driver, 30).until(
+    EC.title_is("History 1111 - Spring 2023 - Dashboard") #Waits for page to load
+)
+print("Out")
