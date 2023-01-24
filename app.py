@@ -74,3 +74,9 @@ print("Entered chapter 1.1")
 
 #From this point forward, we should selects all titles, headers, and paragraph contents from page and
 #compile them into a document. Either create an array for each chapter, and an array to compile all chapters.
+WebDriverWait(driver, 30).until(
+    EC.presence_of_element_located((By.CSS_SELECTOR, 'p.paragraphNumeroUno')) #waits for content page to load
+)
+contentCh1Pt1 = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
+for content in contentCh1Pt1: #iteration to print paragraphs.
+    print(content.text + "\n")
