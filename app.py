@@ -78,7 +78,8 @@ overallContent = []
 print(EC.title_contains("Chapter 2"))
 while(EC.title_is("Chapter 2 Early Societies of Africa and West Asia, to 500 B.C.E.")):
     WebDriverWait(driver, 30).until(
-    (EC.presence_of_element_located((By.CSS_SELECTOR, 'div.player-content')) or EC.presence_of_element_located((By.CSS_SELECTOR, 'div.assessmentLandingHeader')))
+    EC.presence_of_element_located((By.CSS_SELECTOR, 'div.assessment.assessmentLanding, div.player-content, div#assessementContainerBanner'))
+    #or EC.presence_of_element_located((By.CSS_SELECTOR, 'div.player-content')) 
     )
     if(not EC.title_contains("Quiz")):
         try:
