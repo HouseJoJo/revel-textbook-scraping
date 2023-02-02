@@ -9133,3 +9133,463 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 [Child 24851, MediaDecoderStateMachine #1] WARNING: Decoder=7f0b6f614a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
 [Child 24851, MediaDecoderStateMachine #1] WARNING: Decoder=7f0b6f614100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
 [Child 24851, MediaDecoderStateMachine #1] WARNING: Decoder=7f0b6f614a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1675373469203	Marionette	INFO	Stopped listening on port 41277
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675374036055	geckodriver	INFO	Listening on 127.0.0.1:45889
+1675374036061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLbbjmb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675374036928	Marionette	INFO	Marionette enabled
+1675374036934	Marionette	INFO	Listening on port 42809
+Read port: 42809
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56411
+1675374037170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLbbjmb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56411/devtools/browser/e18acd91-0e1d-4397-917e-ef71c48d5c5a
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675374043322	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675374065631	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374075614	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374077765	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e992a2d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e992a2d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e992a3c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e992a3c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e9c09a200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e9c09a200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e992a3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e992a3000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1675374080520	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374083032	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374085239	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374087578	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374089710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374091121	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374096019	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374098710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374101124	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374104029	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374106311	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374108747	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374110378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374114015	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374116476	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374118771	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374120694	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374136374	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374140026	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e7e646b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e6f09d700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e7e646b00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e6f09d700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e53cc8400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e53cc8400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e53cc8700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e53cc8700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6de100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6de100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6ddb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6ddb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6dde00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6dde00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6dd800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 26357, MediaDecoderStateMachine #1] WARNING: Decoder=7f0e3e6dd800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1675374142918	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://revel-ise.pearson.com/static/js/558.2a043caa.chunk.js, line 2: TypeError: r.addedNodes[0].getElementsByTagName is not a function
+1675374144599	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374147004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374149807	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374151917	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374153986	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374156510	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374157802	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374162170	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374162645	Marionette	INFO	Stopped listening on port 42809
+1675374373141	geckodriver	INFO	Listening on 127.0.0.1:34165
+1675374373148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV6YGWP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675374374000	Marionette	INFO	Marionette enabled
+1675374374006	Marionette	INFO	Listening on port 34927
+Read port: 34927
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:51609
+1675374374223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV6YGWP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51609/devtools/browser/2dec859d-a007-40f2-91ea-508d8e04aa50
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675374380139	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675374400632	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374409076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374411139	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2aaa494d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2aaa494d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2aaa495000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2aaa495000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2aaa494400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2aaa494400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a9dfe7100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a9dfe7100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1675374413486	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374416003	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374418688	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374421418	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374424114	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374426313	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374427748	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374435420	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374438411	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374440903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374443162	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374445850	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374447945	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374450066	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374454363	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374457123	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374459778	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374461145	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374465039	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374467900	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a958dbb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a8aef8d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a958dbb00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a8aef8d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a958db200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a958db200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a958da300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 27894, MediaDecoderStateMachine #1] WARNING: Decoder=7f2a958da300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1675374470917	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://revel-ise.pearson.com/static/js/558.2a043caa.chunk.js, line 2: TypeError: r.addedNodes[0].getElementsByTagName is not a function
+1675374472526	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374474666	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374476964	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374479586	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374481778	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374483957	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374485625	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374489729	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675374490171	Marionette	INFO	Stopped listening on port 34927
+1675374864349	geckodriver	INFO	Listening on 127.0.0.1:54993
+1675374864355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOFHhwQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675374865207	Marionette	INFO	Marionette enabled
+1675374865214	Marionette	INFO	Listening on port 33321
+Read port: 33321
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37047
+1675374865449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOFHhwQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37047/devtools/browser/0c196024-4a96-4302-93e2-7fbe9d486cfe
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675374869164	Marionette	INFO	Stopped listening on port 33321
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675374869564	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
