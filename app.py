@@ -81,6 +81,14 @@ templist = []
 WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.CSS_SELECTOR, 'p.paragraphNumeroUno')) #waits for content page to load
 )
+try:
+    templist.append(driver.find_element(By.CSS_SELECTOR, 'div.player-content h1').text)
+except NoSuchElementException:
+    print("h1 was not found")
+try:
+    templist.append(driver.find_element(By.CSS_SELECTOR, 'div.player-content h2').text)
+except NoSuchElementException:
+    print("h2 was not found")
 content = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
 for items in content:
     templist.append(items.text)
