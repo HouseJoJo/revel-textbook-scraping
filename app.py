@@ -82,7 +82,8 @@ WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.CSS_SELECTOR, 'p.paragraphNumeroUno')) #waits for content page to load
 )
 content = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
-templist.extend(content)
+for items in content:
+    templist.append(items.text)
 df = pd.DataFrame(templist)
 
 df.to_csv('table.csv')
