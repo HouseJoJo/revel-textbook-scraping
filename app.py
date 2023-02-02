@@ -74,30 +74,9 @@ print("Entered chapter 1.1")
 
 #From this point forward, we should selects all titles, headers, and paragraph contents from page and
 #compile them into a document. Either create an array for each chapter, and an array to compile all chapters.
-overallContent = []
-pageTitle = driver.title 
-while("Chapter 2" not in pageTitle):
-    WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR, 'div.assessment.assessmentLanding, div.player-content, div#assessementContainerBanner'))
-    #or EC.presence_of_element_located((By.CSS_SELECTOR, 'div.player-content')) 
-    )
-    pageTitle = driver.title
-    if("Quiz" not in pageTitle):
-        try:
-            overallContent.append(driver.find_element(By.CSS_SELECTOR, 'div.player-content h1'))
-        except NoSuchElementException:
-            print("h1 was not found")
-        try:
-            overallContent.append(driver.find_element(By.CSS_SELECTOR, 'div.player-content h2')) #entire while loop attempting to gather data from all CH1 pages
-        except NoSuchElementException:
-            print("no h2 found")
-        overallContent.append(driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno'))
-    for stuff in overallContent:
-        try:
-            print(stuff.text)
-        except AttributeError:
-            print("att. err")
-    driver.find_element(By.CSS_SELECTOR, 'div#nextPage button').click()
-print("done")
-for content in overallContent:
-    print(content + "/n")
+WebDriverWait(driver, 30).until(
+    EC.presence_of_element_located((By.CSS_SELECTOR, 'p.paragraphNumeroUno')) #waits for content page to load
+)
+contentCh1Pt1 = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
+for content in contentCh1Pt1: #iteration to print paragraphs.
+    print(content.text + "\n")
