@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+import pandas as pd
+import csv
 
 xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]",
     'openRevelAlt' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]/span",
@@ -74,9 +76,15 @@ print("Entered chapter 1.1")
 
 #From this point forward, we should selects all titles, headers, and paragraph contents from page and
 #compile them into a document. Either create an array for each chapter, and an array to compile all chapters.
+templist = []
+
 WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.CSS_SELECTOR, 'p.paragraphNumeroUno')) #waits for content page to load
 )
-contentCh1Pt1 = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
-for content in contentCh1Pt1: #iteration to print paragraphs.
-    print(content.text + "\n")
+content = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
+templist.extend(content)
+df = pd.DataFrame(templist)
+
+df.to_csv('table.csv')
+#for content in contentCh1Pt1: #iteration to print paragraphs.
+#    print(content.text + "\n")

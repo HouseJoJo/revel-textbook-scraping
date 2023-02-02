@@ -8472,3 +8472,140 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 [Child 4131, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a89c76200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
 [Child 4131, MediaDecoderStateMachine #1] WARNING: Decoder=7f1a89c76200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-rUJInU/firefox-109.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:164
 1675101424722	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1675352622907	geckodriver	INFO	Listening on 127.0.0.1:56779
+1675352623409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4jIU7r"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675352624123	Marionette	INFO	Marionette enabled
+1675352624127	Marionette	INFO	Listening on port 45009
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45009
+WebDriver BiDi listening on ws://127.0.0.1:57459
+1675352624318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4jIU7r/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57459/devtools/browser/010bb880-cfac-4155-abeb-07da0620f62d
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675352629698	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675352717786	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1675352748408	geckodriver	INFO	Listening on 127.0.0.1:33917
+1675352748915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUSIkXU"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675352749435	Marionette	INFO	Marionette enabled
+1675352749438	Marionette	INFO	Listening on port 36931
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 36931
+WebDriver BiDi listening on ws://127.0.0.1:39741
+1675352749602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUSIkXU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39741/devtools/browser/db036a0b-9b4a-4100-b399-b84b147c45f3
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675352755784	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675352774837	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20dd05ae00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20dd05ae00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20e19df800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20e19df800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20e19dfe00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20e19dfe00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20dd058d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 8859, MediaDecoderStateMachine #1] WARNING: Decoder=7f20dd058d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+1675357600394	geckodriver	INFO	Listening on 127.0.0.1:59607
+1675357600399	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSFBCHC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675357600932	Marionette	INFO	Marionette enabled
+1675357600936	Marionette	INFO	Listening on port 40527
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 40527
+WebDriver BiDi listening on ws://127.0.0.1:37319
+1675357601102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSFBCHC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37319/devtools/browser/b191d64c-79cd-4b99-8a70-a7fc96658840
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675357607747	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.pearson.com."
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 16: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 33: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 65: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 73: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 370: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: unreachable code after return statement
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://console.pearson.com/e-ndBfvg0/r-y8AnlS/HsuHcZ2G/R0/p73hNkmX1fYf/LGsGQUshZAg/FT/M2aScIFDY, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://console.pearson.com/assets/app.db02a74bcf9c973902c0.js, line 428: ReferenceError: rtd is not defined
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: unreachable code after return statement
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://revel-ise.pearson.com/wYu67PqvqzjBXIROCQ/9rihGhbfrON9/Cn50XQ/ek9dCiRc/Wwg, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675357638181	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a90600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a90600 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a8f400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a8f100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a8f700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a8f400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a8f100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
+[Child 12536, MediaDecoderStateMachine #1] WARNING: Decoder=7fd150a8f700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-fS9228/firefox-109.0.1+build1/dom/media/MediaDecoderStateMachineBase.cpp:164
