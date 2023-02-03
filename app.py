@@ -3,10 +3,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 import pandas as pd
 import csv
 
-def writeCSVtoTXT(read, write): #helper text to convert csv to .txt
+def writeCSVtoTXT(read, write): #helper text to convert csv to .txt for end of program.
     with open(write, "w") as output_file:
         with open(read, "r") as input_file:
             csv_reader = csv.reader(input_file)
@@ -35,21 +36,44 @@ driver.get("https://console.pearson.com/console/home") #Setup browser driver
 elem = WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.CSS_SELECTOR,"#username")) #Wait for page to finish loading
 )
+validChapterSelect = False
+while(not validChapterSelect):
+    chapterSelect = input("Enter to what chapter to collect the content from (Ex: 2-20 or 'all' for all chapters): ")
+    try:
+        if(chapterSelect == "all"):
+            chapterSelect = "Key Features"
+            validChapterSelect = True
+            print(chapterSelect)
+        elif(2 <= int(chapterSelect) <= 20):
+            chapterSelect = "Chapter " + chapterSelect
+            validChapterSelect = True
+            print(chapterSelect)
+    except(ValueError):
+        print("")
 
 username = driver.find_element(By.CSS_SELECTOR,"#username")
 password = driver.find_element(By.CSS_SELECTOR,"#password")
 loginbttn = driver.find_element(By.CSS_SELECTOR,"#mainButton") #Select elements needed for login
-
-userinput = input("Enter Username to login:")
-passinput = input("Enter Password:") #Prompt user for credentials
-
-username.send_keys(userinput)
-password.send_keys(passinput) #Input credentials and attempt login
-loginbttn.click()
-
-WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.XPATH,xpaths["openRevel"])) #wait for browser to load next page
-)
+pageTitle = driver.title
+ifLogin = True
+while(ifLogin):
+    userinput = input("Enter Username to login:")
+    passinput = input("Enter Password:") #Prompt user for credentials
+    
+    driver.find_element(By.CSS_SELECTOR,"#username").clear()
+    driver.find_element(By.CSS_SELECTOR,"#password").clear()
+    driver.find_element(By.CSS_SELECTOR,"#username").send_keys(userinput)
+    driver.find_element(By.CSS_SELECTOR,"#password").send_keys(passinput) #Input credentials and attempt login
+    driver.find_element(By.CSS_SELECTOR,"#mainButton").click()
+    try:
+        WebDriverWait(driver, 4).until(
+            EC.presence_of_element_located((By.XPATH,xpaths["openRevel"])) #wait for browser to load next page
+        )
+        ifLogin = False
+        break
+    except TimeoutException:
+        print("Login failed. Try again.")
+        driver.refresh()
 print("Login success")
 
 driver.find_element(By.XPATH,xpaths["openRevel"]).click() #Clicks to open assignment
@@ -71,7 +95,6 @@ try:
 except NoSuchElementException:
     print("OS popup not found")
 
-print("Final")
 WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.XPATH,xpaths["courseContentInput"])) #Waits for new page to load.
 )
@@ -88,7 +111,7 @@ print("Entered chapter 1.1")
 #compile them into a document. Either create an array for each chapter, and an array to compile all chapters.
 templist = []
 pageTitle = driver.title
-while("Chapter 2" not in pageTitle):
+while(chapterSelect not in pageTitle):
     WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, 'div.assessment.assessmentLanding, div.player-content, div#assessementContainerBanner')) #waits for content page to load
     )
