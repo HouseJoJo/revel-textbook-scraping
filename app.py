@@ -6,6 +6,16 @@ from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 import csv
 
+def writeCSVtoTXT(read, write): #helper text to convert csv to .txt
+    with open(write, "w") as output_file:
+        with open(read, "r") as input_file:
+            csv_reader = csv.reader(input_file)
+            for row in csv_reader:
+                line = row[1]
+                if(line[:1].isdigit()):
+                       output_file.write("\n \n \n" + line)
+                else: output_file.write("\n" + line)
+
 xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]",
     'openRevelAlt' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]/span",
     'closeAlert1Bttn' : "/html/body/div[5]/div[2]/div/div[1]/button",
@@ -99,3 +109,4 @@ while("Chapter 2" not in pageTitle):
 df = pd.DataFrame(templist)
 df.to_csv('table.csv')
 driver.close()
+writeCSVtoTXT('table.csv', 'output.txt')
