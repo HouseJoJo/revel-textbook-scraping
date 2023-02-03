@@ -7,14 +7,14 @@ from selenium.common.exceptions import TimeoutException
 import pandas as pd
 import csv
 
-def writeCSVtoTXT(read, write): #helper text to convert csv to .txt for end of program.
+def writeCSVtoTXT(read, write): #helper method to convert csv to .txt for end of program.
     with open(write, "w") as output_file:
         with open(read, "r") as input_file:
             csv_reader = csv.reader(input_file)
             for row in csv_reader:
                 line = row[1]
                 if(line[:1].isdigit()):
-                       output_file.write("\n \n \n" + line)
+                    output_file.write("\n \n \n" + line)
                 else: output_file.write("\n" + line)
 
 xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]",
@@ -29,6 +29,27 @@ xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/di
     'chapter1Selection': '//*[@id="urn:pearson:entity:45f74f4e-81e4-43cf-8e32-0e21f775a565"]',
     'chapter1-1Selection': "/html/body/div[2]/div/div[2]/div[4]/div[3]/div[2]/div/ul/li[4]/div/div/div/ul/li[1]/button" }
     #Pairs of xpaths for future use.
+chapterPairsXpaths = {
+    'chapter1' : '//*[@id="urn:pearson:entity:45f74f4e-81e4-43cf-8e32-0e21f775a565"]',
+    'chapter2' : '//*[@id="urn:pearson:entity:6b72d958-d113-4784-91d6-2e3f51316bac"]',
+    'chapter3' : '//*[@id="urn:pearson:entity:f588b056-e645-4a07-912a-b7251140a76a"]',
+    'chapter4' : '//*[@id="urn:pearson:entity:105fa35d-7aaa-4a0a-b074-2c9c8b24da68"]',
+    'chapter5' : '//*[@id="urn:pearson:entity:427850fb-ef08-43fa-9482-4f56909f6744"]',
+    'chapter6' : '//*[@id="urn:pearson:entity:a1d0e218-9ba9-4199-84fa-e89cfb8f55d6"]',
+    'chapter7' : '//*[@id="urn:pearson:entity:c04f2a5e-209f-454f-81e2-fa49cc8473ae"]',
+    'chapter8' : '//*[@id="urn:pearson:entity:cebe5cfa-fa04-495e-a484-98f4be2e6e72"]',
+    'chapter9' : '//*[@id="urn:pearson:entity:77be6df2-7c4e-4908-943c-fd0c02e51891"]',
+    'chapter10' : '//*[@id="urn:pearson:entity:c521e0a3-2506-4a34-be5b-800453d8bd3f"]',
+    'chapter11' : '//*[@id="urn:pearson:entity:972d3fbf-9074-41cf-a87e-5abe0da3a6fe"]',
+    'chapter12' : '//*[@id="urn:pearson:entity:e0a8b39c-6b75-4bba-abd8-046c90293ca3"]',
+    'chapter13' : '//*[@id="urn:pearson:entity:4de3bc9b-688a-4301-8e87-ce4d0d7fae54"]',
+    'chapter14' : '//*[@id="urn:pearson:entity:8975028a-4f35-41f2-aec2-bec5d6050580"]',
+    'chapter15' : '//*[@id="urn:pearson:entity:a399ae30-6a68-45c6-99e2-9b0f2801e7ad"]',
+    'chapter16' : '//*[@id="urn:pearson:entity:2595c388-35a2-4dc9-8596-1dadd790addd"]',
+    'chapter17' : '//*[@id="urn:pearson:entity:11aa0531-febb-4f5f-acde-4e2b0fea6964"]',
+    'chapter18' : '//*[@id="urn:pearson:entity:4b961cab-7cd2-4ae2-95cb-46bbbd811f1b"]',
+    'chapter19' : '//*[@id="urn:pearson:entity:4e9684f2-a53b-4730-8c2f-c8f2643a0308"]',
+    'chapter20' : '//*[@id="urn:pearson:entity:630503b1-f831-4652-a314-4c5b14515283"]' }
 
 driver = webdriver.Firefox()
 driver.get("https://console.pearson.com/console/home") #Setup browser driver
@@ -36,18 +57,30 @@ driver.get("https://console.pearson.com/console/home") #Setup browser driver
 elem = WebDriverWait(driver, 30).until(
     EC.presence_of_element_located((By.CSS_SELECTOR,"#username")) #Wait for page to finish loading
 )
-validChapterSelect = False
-while(not validChapterSelect):
-    chapterSelect = input("Enter to what chapter to collect the content from (Ex: 2-20 or 'all' for all chapters): ")
+validChapterStart = False
+intChapterStart = 0
+while(not validChapterStart):
     try:
-        if(chapterSelect == "all"):
-            chapterSelect = "Key Features"
-            validChapterSelect = True
-            print(chapterSelect)
-        elif(2 <= int(chapterSelect) <= 20):
-            chapterSelect = "Chapter " + chapterSelect
-            validChapterSelect = True
-            print(chapterSelect)
+        chapterSelectStart = input("Enter what chapter number to start from (Ex: 1-20): ")
+        if(1 <= int(chapterSelectStart) <= 20):
+            intChapterStart = int(chapterSelectStart)
+            chapterSelectStart = "chapter" + chapterSelectStart
+            validChapterStart = True
+        else:   print("Invalid input")
+    except(ValueError):
+        print("Invalid input")
+validChapterEnd = False
+while(not validChapterEnd):
+    chapterSelectEnd = input("Enter to what chapter  number to collect the content from (Ex: 2-20 or 'end' for end of Ch.20): ")
+    try:
+        if(chapterSelectEnd == "end"):
+            chapterSelectEnd = "Key Features"
+            validChapterEnd = True
+            print(chapterSelectEnd)
+        elif(not chapterSelectStart.endswith("20") and 2 <= int(chapterSelectEnd) <= 20 and intChapterStart < int(chapterSelectEnd)):
+            chapterSelectEnd = "Chapter " + chapterSelectEnd
+            validChapterEnd = True
+            print(chapterSelectEnd)
     except(ValueError):
         print("")
 
@@ -103,15 +136,15 @@ driver.find_element(By.XPATH,xpaths["ccInputChapters"]).click() #Selects Chapter
 
 print("All chapters selected")
 
-driver.find_element(By.XPATH,xpaths['chapter1Selection']).click()
-driver.find_element(By.XPATH,xpaths["chapter1-1Selection"]).click() #Locates and enters Chapter 1.1
+driver.find_element(By.XPATH,chapterPairsXpaths[chapterSelectStart]).click()
+driver.find_element(By.XPATH,'//*[@id="mainContent"]/div[3]/div[2]/div/ul/li['+str(intChapterStart + 3)+']/div/div/div/ul/li[1]/button').click() #Locates and enters Chapter 1.1
 print("Entered chapter 1.1")
 
 #From this point forward, we should selects all titles, headers, and paragraph contents from page and
 #compile them into a document. Either create an array for each chapter, and an array to compile all chapters.
 templist = []
 pageTitle = driver.title
-while(chapterSelect not in pageTitle):
+while(chapterSelectEnd not in pageTitle): #While loop for all content(from ch1) crashes at about 15 chapters in
     WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, 'div.assessment.assessmentLanding, div.player-content, div#assessementContainerBanner')) #waits for content page to load
     )
@@ -132,4 +165,4 @@ while(chapterSelect not in pageTitle):
 df = pd.DataFrame(templist)
 df.to_csv('table.csv')
 driver.close()
-writeCSVtoTXT('table.csv', 'output.txt')
+writeCSVtoTXT('table.csv', 'output.txt') 
