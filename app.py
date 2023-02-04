@@ -51,12 +51,12 @@ driver = webdriver.Firefox()
 driver.get("https://console.pearson.com/console/home") #Setup browser driver
 
 elem = WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.CSS_SELECTOR,"#username")) #Wait for page to finish loading
+    EC.presence_of_element_located((By.CSS_SELECTOR,"#username")) #Wait for page to finish loading before logging in
 )
-validChapterStart = False
+validChapterStart = False #Variables needed for error-handling login inputs
 intChapterStart = 0
 while(not validChapterStart):
-    try:
+    try: #Checks chapter input. Needs to be within 1-20 (Specific to Connections textbook)
         chapterSelectStart = input("Enter what chapter number to start from (Ex: 1-20): ")
         if(1 <= int(chapterSelectStart) <= 20):
             intChapterStart = int(chapterSelectStart)
@@ -68,7 +68,7 @@ while(not validChapterStart):
 validChapterEnd = False
 while(not validChapterEnd):
     chapterSelectEnd = input("Enter to what chapter  number to collect the content from (Ex: 2-20 or 'end' for end of Ch.20): ")
-    try:
+    try: #Checks for ending chapter scrapping, Needs to be: an int & longer than start chapter, or 'end'.
         if(chapterSelectEnd == "end"):
             chapterSelectEnd = "Key Features"
             validChapterEnd = True
@@ -78,13 +78,9 @@ while(not validChapterEnd):
             validChapterEnd = True
             print(chapterSelectEnd)
     except(ValueError):
-        print("")
+        print("Invalid input")
 
-username = driver.find_element(By.CSS_SELECTOR,"#username")
-password = driver.find_element(By.CSS_SELECTOR,"#password")
-loginbttn = driver.find_element(By.CSS_SELECTOR,"#mainButton") #Select elements needed for login
-pageTitle = driver.title
-ifLogin = True
+ifLogin = True #Start of login error handling loop.
 while(ifLogin):
     userinput = input("Enter Username to login:")
     passinput = input("Enter Password:") #Prompt user for credentials
@@ -98,7 +94,7 @@ while(ifLogin):
         WebDriverWait(driver, 4).until(
             EC.presence_of_element_located((By.XPATH,xpaths["openRevel"])) #wait for browser to load next page
         )
-        ifLogin = False
+        ifLogin = False #ends loop if exception not thrown.
         break
     except TimeoutException:
         print("Login failed. Try again.")
@@ -110,7 +106,7 @@ driver.find_element(By.XPATH,xpaths["openRevel"]).click() #Clicks to open assign
 WebDriverWait(driver, 30).until(
     EC.title_is("History 1111 - Spring 2023 - Dashboard") #Waits for page to load
 )
-print("Revel Content loaded")
+print("Revel Dashboard loaded")
 
 try:
     driver.find_element(By.XPATH,xpaths['appPopUpClose']).click() #Block closes a potential app pop-up
@@ -130,21 +126,20 @@ WebDriverWait(driver, 30).until(
 driver.find_element(By.XPATH,xpaths["courseContentInput"]).click()
 driver.find_element(By.XPATH,xpaths["ccInputChapters"]).click() #Selects Chapter view on webpage
 
-print("All chapters selected")
-
+#Locates and enters chapter from previous user input.
 driver.find_element(By.XPATH,chapterPairsXpaths[chapterSelectStart]).click()
-driver.find_element(By.XPATH,'//*[@id="mainContent"]/div[3]/div[2]/div/ul/li['+str(intChapterStart + 3)+']/div/div/div/ul/li[1]/button').click() #Locates and enters Chapter 1.1
-print("Entered chapter 1.1")
+driver.find_element(By.XPATH,'//*[@id="mainContent"]/div[3]/div[2]/div/ul/li['+str(intChapterStart + 3)+']/div/div/div/ul/li[1]/button').click()
+print("Entered desired chapter.")
 
 #From this point forward, we should selects all titles, headers, and paragraph contents from page and
-#compile them into a document. Either create an array for each chapter, and an array to compile all chapters.
+#compile them into a document.
 templist = []
-pageTitle = driver.title
-while(chapterSelectEnd not in pageTitle): #While loop for all content(from ch1) crashes at about 15 chapters in
+pageTitle = driver.title #Page titles will be updated and is used as our stopping condition.
+while(chapterSelectEnd not in pageTitle): #While loop for ch.1 -> end crashes at about 15 chapters in on local machine.
     WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, 'div.assessment.assessmentLanding, div.player-content, div#assessementContainerBanner')) #waits for content page to load
     )
-    if("Quiz" not in pageTitle):
+    if("Quiz" not in pageTitle): #condition only get data from non-quiz pages.
         try:
             templist.append(driver.find_element(By.CSS_SELECTOR, 'div.player-content h1').text) #collections first h1(Title)
         except NoSuchElementException:
@@ -153,11 +148,14 @@ while(chapterSelectEnd not in pageTitle): #While loop for all content(from ch1) 
             templist.append(driver.find_element(By.CSS_SELECTOR, 'div.player-content h2').text) #collects first h2(sub-title)
         except NoSuchElementException:
             print("h2 was not found")
-        content = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #saves content
+        content = driver.find_elements(By.CSS_SELECTOR, 'p.paragraphNumeroUno') #locates paragraph content
         for items in content:
             templist.append(items.text)
-    driver.find_element(By.CSS_SELECTOR, 'div#nextPage button').click()
-    pageTitle = driver.title
+    driver.find_element(By.CSS_SELECTOR, 'div#nextPage button').click() #moves on to next page
+    pageTitle = driver.title #updates title for eventual end to while loop
+
+#The following takes all the data from the array and exports it to "table.csv". The .csv is then exported to
+#"output.txt for readability"
 df = pd.DataFrame(templist)
 df.to_csv('table.csv')
 driver.close()
