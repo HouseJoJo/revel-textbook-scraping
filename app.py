@@ -17,18 +17,14 @@ def writeCSVtoTXT(read, write): #helper method to convert csv to .txt for end of
                     output_file.write("\n \n \n" + line)
                 else: output_file.write("\n" + line)
 
+#XPath key value pairs used during page navigation after sign in
 xpaths = { 'openRevel' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]",
-    'openRevelAlt' : "/html/body/div[1]/main/div[2]/div/div[2]/div/div[2]/div/div[4]/a[2]/span",
-    'closeAlert1Bttn' : "/html/body/div[5]/div[2]/div/div[1]/button",
-    'continueReadingBttn' : "/html/body/div[2]/div/div[2]/div[4]/div[1]/div/div[1]/div/div[2]/div/div/div/button",
-    'appPopUp' : "/html/body/appcues",
     'appPopUpClose' : "/html/body/appcues/div[2]/a",
     'osPopupClose': "/html/body/div[5]/div[2]/div/div[1]/button",
     'courseContentInput': "/html/body/div[2]/div/div[2]/div[4]/div[3]/div[1]/div[3]/div[2]/div/div",
-    'ccInputChapters': "/html/body/div[5]/div[3]/ul/li[2]/div",
-    'chapter1Selection': '//*[@id="urn:pearson:entity:45f74f4e-81e4-43cf-8e32-0e21f775a565"]',
-    'chapter1-1Selection': "/html/body/div[2]/div/div[2]/div[4]/div[3]/div[2]/div/ul/li[4]/div/div/div/ul/li[1]/button" }
-    #Pairs of xpaths for future use.
+    'ccInputChapters': "/html/body/div[5]/div[3]/ul/li[2]/div"}
+
+#XPath key value pairs used when selecting a chapter to begin scraping. (Each one identified by specific IDs)
 chapterPairsXpaths = {
     'chapter1' : '//*[@id="urn:pearson:entity:45f74f4e-81e4-43cf-8e32-0e21f775a565"]',
     'chapter2' : '//*[@id="urn:pearson:entity:6b72d958-d113-4784-91d6-2e3f51316bac"]',
